@@ -12,23 +12,23 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="K
-           fetch="https://github.com/Kayant/"
+  <remote  name="K"
+           fetch="https://github.com/Kayant/" />
   
   <remote  name="CD"
-           fetch="https://github.com/CyanogenDefy/"
+           fetch="https://github.com/CyanogenDefy/" />
 
   <remote  name="TP"
-           fetch="https://github.com/tpruvot/"
+           fetch="https://github.com/tpruvot/" />
  
   <remote  name="Q"
-           fetch="https://github.com/Quarx2k/"
+           fetch="https://github.com/Quarx2k/" />
 
   <remote  name="N"
-           fetch="https://github.com/nadlabak/"
+           fetch="https://github.com/nadlabak/" />
 
   <remote  name="R"
-           fetch="https://github.com/royale1223/"
+           fetch="https://github.com/royale1223/" />
 
   <default remote="aosp"
            sync-j="4" />
@@ -40,7 +40,7 @@
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="TP" revision="ics" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="TP" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="development" name="platform/development" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
