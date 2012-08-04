@@ -236,6 +236,7 @@
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="aokp" revision="jb" />
   <project path="hardware/ril" name="android_hardware_ril" remote="N" revision="jellybean" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="CD" revision="jellybean" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
