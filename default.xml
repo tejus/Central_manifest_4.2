@@ -354,6 +354,6 @@
   <project path="external/hostapd" name="android_external_hostapd" remote="TP" revision="ics" />
   <project path="packages/apps/HwaSettings" name="HwaSettings" remote="R" revision="jellybean" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="cm" revision="gingerbread" />
-  <!-- <project path="system/wlan/ti" name="android_system_wlan_ti" remote="TP" revision="gingerbread" /> -->
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="TP" revision="gingerbread" /> 
    
 </manifest>
