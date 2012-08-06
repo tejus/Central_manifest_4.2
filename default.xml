@@ -199,7 +199,7 @@
   <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb" />
   <project path="external/webp" name="platform/external/webp" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="TP" revision="ics" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="jellybean" />
   <project path="external/wpa_supplicant_8" name="AOKP/android_external_wpa_supplicant_8" remote="aokp" revision="jb" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
@@ -237,7 +237,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="Q" revision="jellybean" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="CD" revision="jellybean" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="CD" revision="ics" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
