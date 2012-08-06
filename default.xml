@@ -71,7 +71,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
+  <project path="external/busybox" name="android_external_busybox" remote="TP" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/chromium" name="platform/external/chromium" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -350,9 +350,10 @@
   <project path="device/moto/jordan-common" name="android_device_moto_jordan-common" remote="K" revision="jellybean" />
   <project path="device/moto/mb525" name="android_device_motorola_jordan" remote="K" revision="jellybean" />
   <project path="device/moto/mb526" name="android_device_moto_mb526" remote="K" revision="jellybean" />
-  <project path="external/bootmenu" name="android_external_bootmenu" remote="TP" revision="ics" />
+  <project path="external/bootmenu" name="android_external_bootmenu" remote="TP" revision="jellybean" />
   <project path="external/hostapd" name="android_external_hostapd" remote="TP" revision="ics" />
   <project path="packages/apps/HwaSettings" name="HwaSettings" remote="R" revision="jellybean" />
+  <project path="packages/apps/DroidSSHd" name="android_external_droidsshd" remote="TP" revision="jellybean" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="cm" revision="gingerbread" />
   <!-- <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" revision="gingerbread" /> -->
    
