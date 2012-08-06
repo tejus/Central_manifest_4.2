@@ -202,7 +202,7 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="CD" revision="ics" />
   <project path="external/wpa_supplicant_8" name="AOKP/android_external_wpa_supplicant_8" remote="aokp" revision="jb" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="TP" revision="jellybean" />
   <project path="external/zlib" name="platform/external/zlib" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="frameworks/av" name="frameworks_av" remote="K" revision="jb" />
