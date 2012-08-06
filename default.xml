@@ -228,16 +228,16 @@
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="aokp" revision="jb" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="aokp" revision="jb" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="Q" revision="jb_audio_test" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="TP" revision="jellybean" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/qcom/audio" name="AOKP/android_hardware_qcom_audio" remote="aokp" revision="jb" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="aokp" revision="jb" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="aokp" revision="jb" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="N" revision="jellybean" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="Q" revision="jellybean" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3-compat" remote="CD" revision="jellybean" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="CD" revision="ics" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -354,6 +354,6 @@
   <project path="external/hostapd" name="android_external_hostapd" remote="TP" revision="ics" />
   <project path="packages/apps/HwaSettings" name="HwaSettings" remote="R" revision="jellybean" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="cm" revision="gingerbread" />
-  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="TP" revision="gingerbread" /> 
+  <!-- <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" revision="gingerbread" /> -->
    
 </manifest>
