@@ -351,7 +351,7 @@
   <project path="device/moto/mb525" name="android_device_motorola_jordan" remote="K" revision="jellybean" />
   <project path="device/moto/mb526" name="android_device_moto_mb526" remote="K" revision="jellybean" />
   <project path="external/bootmenu" name="android_external_bootmenu" remote="TP" revision="jellybean" />
-  <!-- <project path="external/hostapd" name="android_external_hostapd" remote="TP" revision="ics" /> -->
+  <project path="external/hostapd" name="android_external_hostapd" remote="TP" revision="ics" />
   <project path="packages/apps/HwaSettings" name="HwaSettings" remote="R" revision="jellybean" />
   <project path="packages/apps/DroidSSHd" name="android_external_droidsshd" remote="TP" revision="jellybean" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="cm" revision="gingerbread" />
