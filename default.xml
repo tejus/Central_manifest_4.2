@@ -30,6 +30,9 @@
   <remote  name="R"
            fetch="https://github.com/royale1223/" />
 
+  <remote  name="M"
+           fetch="https://github.com/maniac103/" />
+
   <default remote="aosp"
            sync-j="4" />
 
@@ -338,7 +341,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
-  <project path="packages/apps/MotoFM" name="android_packages_apps_MotoFM" remote="R" revision="jellybean" />
+  <project path="packages/apps/MotoFM" name="android_packages_apps_MotoFM" remote="M" revision="jellybean" />
   <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="CD" revision="ics" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="K" revision="jellybean" />
   <project path="device/moto/jordan-common" name="android_device_moto_jordan-common" remote="K" revision="jellybean" />
