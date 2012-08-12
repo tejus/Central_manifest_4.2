@@ -225,6 +225,7 @@
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="aokp" revision="jb" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="aokp" revision="jb" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="Q" revision="jb_audio_test" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="jellybean" />
   <project path="hardware/qcom/audio" name="AOKP/android_hardware_qcom_audio" remote="aokp" revision="jb" />
@@ -319,8 +320,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="sdk" name="AOKP/android_sdk" remote="aokp" revision="jb" />
-  <project path="system/core" name="android_system_core" remote="K" revision="jb" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
+  <project path="system/core" name="android_system_core" remote="K" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
