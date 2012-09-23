@@ -340,6 +340,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="jellybean" />
   <project path="packages/apps/MotoFM" name="android_packages_apps_MotoFM" remote="M" revision="jellybean" />
   <project path="packages/apps/Usb" name="android_packages_apps_Usb" remote="CD" revision="ics" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="K" revision="jellybean" />
