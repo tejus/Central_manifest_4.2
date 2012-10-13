@@ -172,7 +172,7 @@
   <project path="external/wpa_supplicant_6" name="Kayant/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="jellybean" />
+  <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" remote="github" revision="jellybean" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="jellybean" />
