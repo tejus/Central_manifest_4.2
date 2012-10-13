@@ -292,7 +292,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jellybean" />
-  <project path="system/core" name="Kayant/android_system_core" remote="github" revision="Slim" />
+  <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jellybean" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="jellybean" />
   <project path="system/netd" name="Quarx2k/android_system_netd" remote="github" revision="jellybean" />
@@ -301,7 +301,7 @@
 
   <project path="platform_manifest" name="Kayant/platform_manifest" remote="github" revision="Slim" />
 <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb" />
+  <project path="vendor/slim" name="Kayant/vendor_slim" remote="github" revision="jb" />
 
   <!-- New Additions from CM and other teams -->
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="jellybean" />
