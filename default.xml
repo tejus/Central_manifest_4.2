@@ -216,7 +216,7 @@
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="jb" />
+  <project path="packages/apps/Camera" name="Kayant/packages_apps_Camera" remote="github" revision="Slim" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jellybean" />
@@ -234,7 +234,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="jb" />
+  <project path="packages/apps/Phone" name="Kayant/packages_apps_Phone" remote="github" revision="Slim" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -292,7 +292,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jellybean" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="jellybean" />
+  <project path="system/core" name="Kayant/android_system_core" remote="github" revision="Slim" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jellybean" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="jellybean" />
   <project path="system/netd" name="Quarx2k/android_system_netd" remote="github" revision="jellybean" />
