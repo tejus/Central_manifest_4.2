@@ -198,7 +198,7 @@
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="jellybean" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="jellybean" />
-  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy"  revision="jb_audio_test" />
+  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="jb_audio_test" />
   <project path="hardware/msm7k" name="SlimRoms/hardware_msm7k" remote="github" revision="jellybean" />
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="jellybean" />
@@ -324,7 +324,7 @@
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="jellybean" />
   <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
-  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" revision="2.6.32" />
+  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="2.6.32" />
 
 </manifest>
 
