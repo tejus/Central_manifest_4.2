@@ -5,7 +5,8 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/" />
+           fetch="git://github.com/"
+           review="review.slimroms.net" />
 
   <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
@@ -22,12 +23,10 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="jellybean" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/grouper" name="SlimRoms/device_asus_grouper" remote="github" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -153,7 +152,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
+  <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="jellybean" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
@@ -172,8 +171,8 @@
   <project path="external/wpa_supplicant_6" name="Kayant/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" remote="github" revision="jellybean" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="jellybean" />
+  <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="jellybean" />
   <project path="frameworks/base" name="Kayant/Slim_frameworks_base" remote="github" revision="jb" />
@@ -319,11 +318,10 @@
   <project path="vendor/motorola" name="Kayant/proprietary_vendor_motorola" remote="github" revision="Slim" />
   <project path="device/moto/jordan-common" name="Kayant/android_device_moto_jordan-common" remote="github" revision="Slim" />
   <project path="device/moto/mb526" name="Kayant/android_device_moto_mb526" remote="github" revision="Slim" />
-  <project path="external/bootmenu" name="tpruvot/android_external_bootmenu" remote="github" revision="jellybean" />
+  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="jellybean" />
   <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" />
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="2.6.32" />
 
 </manifest>
-
