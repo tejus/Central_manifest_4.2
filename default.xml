@@ -199,7 +199,7 @@
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="jb_audio_test" />
   <project path="hardware/msm7k" name="SlimRoms/hardware_msm7k" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="jb" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="jellybean" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="jellybean" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jellybean" />
@@ -214,11 +214,11 @@
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="jellybean" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="jb" />
   <project path="packages/apps/Camera" name="Kayant/packages_apps_Camera" remote="github" revision="Slim" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jb" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -247,7 +247,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="jb" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -323,6 +323,6 @@
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="jellybean" />
   <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" />
-  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="2.6.32" />
+  <project path="jordan-kernel" name="tpruvot/jordan-kernel" remote="github" revision="2.6.32" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" remote="github" revision="gingerbread" />
 </manifest>
