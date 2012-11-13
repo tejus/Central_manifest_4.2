@@ -168,7 +168,7 @@
   <project path="external/webkit" name="SlimRoms/android_external_webkit" remote="github" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="Kayant/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
+  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" remote="github" revision="jellybean" />
@@ -205,7 +205,7 @@
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jellybean" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="jellybean" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="jellybean" />
-  <project path="hardware/ti/wlan" name="Kayant/android_hardware_ti_wlan" remote="github" revision="jellybean" />
+  <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" remote="github" revision="jellybean" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="jellybean" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -297,7 +297,7 @@
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="jellybean" />
   <project path="system/netd" name="Quarx2k/android_system_netd" remote="github" revision="jellybean" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jellybean" />
+  <project path="system/vold" name="Quarx2k/android_system_vold" remote="github" revision="jellybean" />
 
   <project path="platform_manifest" name="Kayant/platform_manifest" remote="github" revision="Slim" />
 <!-- New Additions for slim -->
