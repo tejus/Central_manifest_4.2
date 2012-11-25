@@ -285,7 +285,6 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/gcc/linux-x86/arm/android-toolchain-eabi-linaro-4.7" name="Quarx2k/android-toolchain-eabi-linaro-4.7" remote="github" revision="4.7-2012.10" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
@@ -326,4 +325,5 @@
   <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" />
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="2.6.32" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" remote="github" revision="gingerbread" />
+  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="private"revision="gingerbread" />
 </manifest>
