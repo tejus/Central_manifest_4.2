@@ -168,7 +168,7 @@
   <project path="external/webkit" name="SlimRoms/android_external_webkit" remote="github" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
+  <project path="external/wpa_supplicant_6" name="Quarx2k/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" remote="github" revision="jellybean" />
