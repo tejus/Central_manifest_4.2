@@ -323,7 +323,7 @@
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="jellybean" />
   <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" />
-  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="2.6.32" />
+  <project path="jordan-kernel" name="Kayant/jordan-kernel" remote="github" revision="new-9" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" remote="github" revision="gingerbread" />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="github" revision="gingerbread" />
 
