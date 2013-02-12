@@ -9,6 +9,7 @@
            review="https://review.slimroms.net:8443/"/>
 
   <default revision="refs/tags/android-4.2.1_r1.2"
+           sync-c="true"
            remote="aosp"
            sync-j="4" />
 
