@@ -5,6 +5,7 @@
 
   <!-- CM/SlimBean removals -->
   <remove-project name="SlimRoms/frameworks_base" />
+  <remove-project name="SlimRoms/frameworks_av" />
   <remove-project name="SlimRoms/hardware_ril" />
   <remove-project name="SlimRoms/bootable_recovery" />
   <remove-project name="SlimRoms/frameworks_opt_telephony" />
@@ -18,21 +19,19 @@
  
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="gh" revision="cm-10.1" />
   <project path="vendor/slim" name="Kayant/Central_vendor_4.2" remote="gh" revision="SB" />
-  <project path="system/core" name="Kayant/android_system_core" remote="gh" revision="SB" />
+  <project path="system/core" name="Kayant/Central_system_core_4.2" remote="gh" revision="SB" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="gh" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
-  <project path="frameworks/native" name="Kayant/android_frameworks_native" remote="gh" revision="jb4.2" />
+  <project path="frameworks/native" name="Kayant/frameworks_native" remote="gh" revision="SB" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean"/>
   <project path="frameworks/av" name="Kayant/android_frameworks_av" remote="gh" revision="jb4.2" /> 
-  <project path="frameworks/opt/telephony" name="Kayant/android_frameworks_opt_telephony" remote="gh" revision="jb4.2" />
-  <project path="hardware/ril" name="Kayant/android_hardware_ril" remote="gh" revision="jb4.2" />
+  <project path="frameworks/opt/telephony" name="Kayant/frameworks_opt_telephony" remote="gh" revision="jb4.2" />
+  <project path="hardware/ril" name="Kayant/hardware_ril" remote="gh" revision="jb4.2" />
   <project path="frameworks/base" name="Kayant/Central_framework_4.2" remote="gh" revision="SB" />
   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="gh" revision="twrp2.5" />
-  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread" />
+  <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="gh" revision="gingerbread" />
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="gh" revision="jellybean"/>
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="gh" revision="master" />
-  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="gh" revision="mr1-staging" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="gh" revision="jellybean" />
 </manifest>
-
