@@ -19,7 +19,9 @@
  
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="gh" revision="cm-10.1" />
   <project path="device/moto/jordan-common" name="Kayant/Central_device_common_4.2" remote="gh" revision="SB-4.2-2.6" />
+  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="gh" revision="jellybean" />
   <project path="vendor/slim" name="Kayant/Central_vendor_4.2" remote="gh" revision="SB" />
+  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="jb_clean-2.6.32-9" />  
   <project path="system/core" name="Kayant/Central_system_core_4.2" remote="gh" revision="SB" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="gh" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
