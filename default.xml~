@@ -19,7 +19,7 @@
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" remote="github" revision="jellybean" />
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="twrp2.5" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="jellybean" />
   <project path="development" name="platform/development" />
@@ -168,7 +168,7 @@
   <project path="external/webkit" name="SlimRoms/android_external_webkit" remote="github" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="Quarx2k/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
+  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" revision="jellybean" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" remote="github" revision="jellybean" />
@@ -205,7 +205,7 @@
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jellybean" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="jellybean" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="jellybean" />
-  <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" remote="github" revision="jellybean" />
+  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="github" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="jellybean" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -295,7 +295,7 @@
   <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jellybean" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="jellybean" />
-  <project path="system/netd" name="Quarx2k/android_system_netd" remote="github" revision="jellybean" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="jellybean" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="Quarx2k/android_system_vold" remote="github" revision="jellybean" />
 
@@ -314,17 +314,15 @@
   <!-- New Additions for Defy(+) -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="jellybean" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="github" revision="jellybean" />
-  <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="github" revision="ics" />
 
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="jellybean" />
   <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="jb_2ndboot" />
   <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="Slim" />
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
-  <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master" />
-  <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" />
   <project path="jordan-kernel" name="Kayant/jordan-kernel" remote="github" revision="new-9" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" remote="github" revision="gingerbread" />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="github" revision="gingerbread" />
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti"  revision="cm-10.1" />
 
 </manifest>
