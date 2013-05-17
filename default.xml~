@@ -175,7 +175,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="jellybean" />
-  <project path="frameworks/base" name="tejus/Slim_frameworks_base" remote="github" revision="jb" />
+  <project path="frameworks/base" name="Kayant/Slim_frameworks_base" remote="github" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
