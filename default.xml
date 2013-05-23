@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Kayant/Slim_android_build" remote="github" revision="jb" >
+  <project path="build" name="tejus/Slim_android_build" remote="github" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -319,7 +319,9 @@
   <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="jb_2ndboot" />
   <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="Slim" />
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
+  <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master" />
+  <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" />
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="jb_clean-2.6.32-9" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" remote="github" revision="gingerbread" />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="github" revision="gingerbread" />
