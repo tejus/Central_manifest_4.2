@@ -300,7 +300,7 @@
   <project path="system/vold" name="Quarx2k/android_system_vold" remote="github" revision="jellybean" />
 
   <project path="platform_manifest" name="tejus/platform_manifest" remote="github" revision="wpa8" />
-<!-- New Additions for slim -->
+  <!-- New Additions for slim -->
   <project path="vendor/slim" name="tejus/vendor_slim" remote="github" revision="jb" />
 
   <!-- New Additions from CM and other teams -->
@@ -315,7 +315,7 @@
   <!-- New Additions for Defy(+) -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="jellybean" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="github" revision="jellybean" />
-<project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="github" revision="ics" />
+
 
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="jellybean" />
   <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="jb_2ndboot" />
