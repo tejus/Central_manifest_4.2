@@ -292,7 +292,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jellybean" />
-  <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="jellybean" />
+  <project path="system/core" name="tejus/Central_system_core_4.2" remote="github" revision="SB-4.1.2" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jellybean" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="jellybean" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="jellybean" />
