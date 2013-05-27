@@ -1,1 +1,1 @@
-$ repo init -u git://github.com/tejus/platform_manifest.git -b wpa8
+$ repo init -u git://github.com/tejus/platform_manifest.git -b slim
