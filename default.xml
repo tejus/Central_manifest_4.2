@@ -175,7 +175,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="jellybean" />
-  <project path="frameworks/base" name="tejus/Slim_frameworks_base" remote="github" revision="jb" />
+  <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -219,7 +219,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jb" />
-  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jellybean" />
+  <project path="packages/apps/DeskClock" name="tejus/android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
