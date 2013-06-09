@@ -18,19 +18,19 @@
 
  
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="gh" revision="cm-10.1" />
-  <project path="device/motorola/jordan-common" name="Kayant/Central_device_common_4.2" remote="gh" revision="SB-2.6" />
+  <project path="device/moto/jordan-common" name="Kayant/Central_device_common_4.2" remote="gh" revision="SB-2.6" />
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="gh" revision="jellybean" />
   <project path="vendor/slim" name="Kayant/Central_vendor_4.2" remote="gh" revision="SB" />
-  <project path="kernel/motorola/jordan" name="Quarx2k/jordan-kernel" remote="gh" revision="jb_clean-2.6.32-9" />  
+  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="jb_clean-2.6.32-9" />  
   <project path="system/core" name="Kayant/Central_system_core_4.2" remote="gh" revision="SB" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="gh" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
   <project path="frameworks/native" name="Kayant/frameworks_native" remote="gh" revision="SB" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean"/>
   <project path="frameworks/av" name="Kayant/android_frameworks_av" remote="gh" revision="jb4.2" /> 
-  <project path="frameworks/opt/telephony" name="Kayant/frameworks_opt_telephony" remote="gh" revision="jb4.2" />
-  <project path="device/motorola/mb526" name="Kayant/Central_device_mb526_4.2" remote="gh" revision="SB-4.2" />
-  <project path="hardware/ril" name="Kayant/hardware_ril" remote="gh" revision="jb4.2" />
+  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="gh" revision="cm-10.1" />
+  <project path="device/moto/mb526" name="Kayant/Central_device_mb526_4.2" remote="gh" revision="SB-4.2" />
+  <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="gh" revision="cm-10.1" />
   <project path="frameworks/base" name="Kayant/Central_framework_4.2" remote="gh" revision="SB" />
   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="gh" revision="twrp2.5" />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="gh" revision="gingerbread" />
