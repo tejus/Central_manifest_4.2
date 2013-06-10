@@ -10,7 +10,6 @@
   <remove-project name="SlimRoms/bootable_recovery" />
   <remove-project name="SlimRoms/frameworks_opt_telephony" />
   <remove-project name="SlimRoms/hardware_ti_omap3" />
-  <remove-project name="SlimRoms/frameworks_native" />
   <remove-project name="SlimRoms/hardware_libhardware_legacy" />
   <remove-project name="SlimRoms/android_system_core" />
   <remove-project name="SlimRoms/hardware_ti_wlan" />
@@ -25,9 +24,8 @@
   <project path="system/core" name="Kayant/Central_system_core_4.2" remote="gh" revision="SB" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="gh" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
-  <project path="frameworks/native" name="Kayant/frameworks_native" remote="gh" revision="SB" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean"/>
-  <project path="frameworks/av" name="Kayant/android_frameworks_av" remote="gh" revision="jb4.2" /> 
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="gh" revision="cm-10.1" /> 
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="gh" revision="cm-10.1" />
   <project path="device/moto/mb526" name="Kayant/Central_device_mb526_4.2" remote="gh" revision="SB-4.2" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="gh" revision="cm-10.1" />
