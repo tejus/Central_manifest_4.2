@@ -17,7 +17,7 @@
 
  
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="gh" revision="cm-10.1" />
-  <project path="device/moto/jordan-common" name="tejus/Central_device_common_4.2" remote="gh" revision="SB-2.6" />
+  <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common_4.2" remote="gh" revision="slim4.2" />
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="gh" revision="jellybean" />
   <project path="vendor/slim" name="tejus/Central_vendor_4.2" remote="gh" revision="SB" />
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="jb_clean-2.6.32-9" />  
@@ -27,7 +27,7 @@
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean"/>
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="gh" revision="cm-10.1" /> 
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="gh" revision="cm-10.1" />
-  <project path="device/moto/mb526" name="tejus/Central_device_mb526_4.2" remote="gh" revision="SB-4.2" />
+  <project path="device/moto/mb526" name="tejus/android_device_moto_mb526_4.2" remote="gh" revision="slim4.2" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="gh" revision="cm-10.1" />
   <project path="frameworks/base" name="tejus/Central_framework_4.2" remote="gh" revision="SB" />
   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="gh" revision="twrp2.5" />
@@ -36,4 +36,6 @@
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="gh" revision="master" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="gh" revision="jellybean" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="cm-10.1" />
+
 </manifest>
