@@ -32,7 +32,7 @@
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="gh" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="gh" revision="jellybean"/>
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="gh" revision="cm-10.1" />
-  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="jb_clean-2.6.32-9" />
+  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="gh" revision="AeroKernel" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="gh" revision="master" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="gh" revision="jellybean" />
