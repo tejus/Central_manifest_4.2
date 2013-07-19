@@ -1,2 +1,2 @@
-$ repo init -u git://github.com/tejus/Central_manifest_4.2.git -b slim4.2
+$ repo init -u git://github.com/tejus/android_manifest.git -b slim4.2
 $ repo sync
