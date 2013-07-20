@@ -1,1 +1,1 @@
-$ repo init -u git://github.com/tejus/platform_manifest.git -b slim
+$ repo init -u git://github.com/tejus/android_manifest.git -b slim4.1

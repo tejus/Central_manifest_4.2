@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="tejus/android_build" remote="github" revision="slim" >
+  <project path="build" name="tejus/android_build" remote="github" revision="slim4.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -175,7 +175,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" revision="jellybean" />
-  <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim" />
+  <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim4.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -215,11 +215,11 @@
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="jb" />
-  <project path="packages/apps/Camera" name="tejus/android_packages_apps_Camera" remote="github" revision="slim" />
+  <project path="packages/apps/Camera" name="tejus/android_packages_apps_Camera" remote="github" revision="slim4.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jb" />
-  <project path="packages/apps/DeskClock" name="tejus/android_packages_apps_DeskClock" remote="github" revision="slim" />
+  <project path="packages/apps/DeskClock" name="tejus/android_packages_apps_DeskClock" remote="github" revision="slim4.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -233,11 +233,11 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="tejus/android_packages_apps_Phone" remote="github" revision="slim" />
+  <project path="packages/apps/Phone" name="tejus/android_packages_apps_Phone" remote="github" revision="slim4.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="tejus/android_packages_apps_Settings" remote="github" revision="slim" />
+  <project path="packages/apps/Settings" name="tejus/android_packages_apps_Settings" remote="github" revision="slim4.1" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -292,17 +292,15 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jellybean" />
-  <project path="system/core" name="tejus/android_system_core" remote="github" revision="slim" />
+  <project path="system/core" name="tejus/android_system_core" remote="github" revision="slim4.1" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jellybean" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="jellybean" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="jellybean" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="Quarx2k/android_system_vold" remote="github" revision="jellybean" />
-
-  <project path="platform_manifest" name="tejus/platform_manifest" remote="github" revision="slim" />
  
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="tejus/android_vendor_slim" remote="github" revision="slim" />
+  <project path="vendor/slim" name="tejus/android_vendor_slim" remote="github" revision="slim4.1" />
 
   <!-- New Additions from CM and other teams -->
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="jellybean" />
@@ -314,19 +312,18 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="jellybean" />
 
   <!-- New Additions for Defy(+) -->
-  <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="slim" />
-  <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim" />
-  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
+  <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="slim4.1" />
+  <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim4.1" />
+  <project path="external/bootmenu" name="tejus/android_external_bootmenu" remote="github" revision="jellybean" />
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
   <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="AeroKernel" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="jellybean" />
-  <!-- <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="jellybean" /> -->
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="jellybean" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master" />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="github" revision="gingerbread" />
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="github" revision="jellybean" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" remote="github" revision="gingerbread" />
-  <project path="vendor/motorola" name="tejus/android_vendor_motorola" remote="github" revision="slim" />
+  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="jellybean" />
 
 </manifest>
