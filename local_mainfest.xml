@@ -28,6 +28,8 @@
   <remove-project name="SlimRoms/hardware_ti_omap3" />
   <remove-project name="SlimRoms/hardware_ti_wlan" />
   <remove-project name="SlimRoms/packages_apps_DeskClock" />
+  <remove-project name="SlimRoms/packages_apps_Nfc" />
+  <remove-project name="platform/packages/apps/Tag" />
   <remove-project name="SlimRoms/packages_apps_Torch" />
   <remove-project name="SlimRoms/platform_manifest" />
   <remove-project name="SlimRoms/android_system_core" />
