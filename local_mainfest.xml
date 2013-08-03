@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Slimbean removals -->
+  <remove-project name="SlimRoms/android_bionic" />
   <!-- <remove-project name="SlimRoms/bootable_recovery" /> -->
   <!-- <remove-project name="SlimRoms/android_external_busybox" /> -->
   <remove-project name="SlimRoms/android_external_zlib" />
@@ -18,6 +19,7 @@
   <remove-project name="SlimRoms/vendor_slim" />
 
   <!--CM replacements -->
+  <project path="external/exfat" name="CyanogenMod/android_bionic" remote="github" revision="cm-10.2" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-10.2" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-10.2" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-10.2" />
