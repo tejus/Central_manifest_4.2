@@ -19,7 +19,7 @@
   <remove-project name="SlimRoms/vendor_slim" />
 
   <!--CM replacements -->
-  <project path="external/exfat" name="CyanogenMod/android_bionic" remote="github" revision="cm-10.2" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-10.2" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-10.2" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-10.2" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-10.2" />
