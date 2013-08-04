@@ -32,7 +32,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.2" />
 
   <!--Defy additions -->
-  <project path="bootable/recovery" name="Kayant/Team-Win-Recovery-Project" remote="github" revision="twrp2.5" />
+  <project path="bootable/recovery" name="Kayant/Team-Win-Recovery-Project" remote="github" revision="4.3" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="cm-10.2" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="jellybean" />
