@@ -53,7 +53,7 @@
   <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim4.3" />
   <project path="external/bootmenu" name="tejus/android_external_bootmenu" remote="github" revision="slim4.3" />
   <project path="frameworks/av" name="tejus/android_frameworks_av" remote="github" revision="slim4.3" />
-  <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim4.3" />
+  <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim4.3-2" />
   <project path="frameworks/native" name="tejus/frameworks_native" remote="github" revision="slim4.3" />
   <project path="frameworks/opt/telephony" name="tejus/frameworks_opt_telephony" remote="github" revision="slim4.3" />
   <!-- <project path="libcore" name="tejus/android_libcore" remote="github" revision="cm-10.2" /> -->
