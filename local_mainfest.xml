@@ -48,11 +48,11 @@
   </project>
   <project path="dalvik" name="tejus/android_dalvik" remote="github" revision="slim4.4" />
   <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="slim4.4" />
-  <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim4.3" />
+  <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim4.4" />
   <project path="external/bootmenu" name="tejus/android_external_bootmenu" remote="github" revision="slim4.3" />
   <project path="frameworks/av" name="tejus/android_frameworks_av" remote="github" revision="slim4.4" />
   <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim4.4" />
-  <project path="frameworks/native" name="tejus/android_frameworks_native" remote="github" revision="slim4.3" />
+  <project path="frameworks/native" name="tejus/android_frameworks_native" remote="github" revision="slim4.4" />
   <project path="frameworks/opt/telephony" name="tejus/android_frameworks_opt_telephony" remote="github" revision="slim4.4" />
   <project path="prebuilt" name="tejus/android_prebuilt" remote="github" revision="slim4.4" />
   <project path="system/core" name="tejus/android_system_core" remote="github" revision="slim4.4" />
