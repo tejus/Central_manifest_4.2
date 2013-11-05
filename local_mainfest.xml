@@ -33,7 +33,7 @@
 
   <!-- Defy additions -->
   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="twrp2.7" />
-  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="cm-10.2" />
+  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="kitkat" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="cm-10.2" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="jellybean" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="github" revision="cm-10.2" />
