@@ -2,12 +2,8 @@
 <manifest>
 
   <!-- Slimbean removals -->
-  <remove-project name="SlimRoms/android_build" />
   <remove-project name="SlimRoms/android_bionic" />
-  <remove-project name="SlimRoms/android_dalvik" />
   <remove-project name="SlimRoms/bootable_recovery" />
-  <remove-project name="SlimRoms/android_external_busybox" />
-  <remove-project name="SlimRoms/android_external_zlib" />
   <remove-project name="SlimRoms/frameworks_av" />
   <remove-project name="SlimRoms/frameworks_base" />
   <remove-project name="SlimRoms/frameworks_native" />
@@ -19,20 +15,14 @@
   <remove-project name="SlimRoms/platform_manifest" />
   <remove-project name="SlimRoms/android_prebuilt" />
   <remove-project name="SlimRoms/android_system_core" />
-  <remove-project name="SlimRoms/android_system_extras" />
   <remove-project name="SlimRoms/vendor_slim" />
 
-  <!-- CM replacements -->
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-10.2" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-10.2" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-10.2" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-10.2" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-11.0" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-11.0" />
+  <!-- CM repos -->
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" />
 
-  <!-- Defy additions -->
+  <!-- Defy repos -->
   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="twrp2.7" />
+  <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="jellybean" />
@@ -43,14 +33,10 @@
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="github" revision="gingerbread" />
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="jellybean" />
 
-  <project path="build" name="tejus/android_build" remote="github" revision="slim4.4" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <!-- My repos -->
   <project path="bionic" name="tejus/android_bionic" remote="github" revision="slim4.4" />
-  <project path="dalvik" name="tejus/android_dalvik" remote="github" revision="slim4.4" />
   <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="slim4.4" />
   <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim4.4" />
-  <project path="external/bootmenu" name="tejus/android_external_bootmenu" remote="github" revision="slim4.3" />
   <project path="frameworks/av" name="tejus/android_frameworks_av" remote="github" revision="slim4.4" />
   <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim4.4" />
   <project path="frameworks/native" name="tejus/android_frameworks_native" remote="github" revision="slim4.4" />
