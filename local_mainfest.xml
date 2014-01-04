@@ -23,6 +23,7 @@
   <!-- Defy repos -->
   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="twrp2.7" />
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
+  <project path="external/wpa_supplicant_8_ti" name="ariknem/hostap" revision="android4.4_ti" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" remote="github" revision="jellybean" />
@@ -32,6 +33,7 @@
   <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" remote="github" revision="jellybean" />
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" remote="github" revision="gingerbread" />
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="jellybean" />
+
 
   <!-- My repos -->
   <project path="bionic" name="tejus/android_bionic" remote="github" revision="slim4.4" />
