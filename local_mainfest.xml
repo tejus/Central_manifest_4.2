@@ -39,7 +39,7 @@
 
   <!-- My repos -->
   <project path="bionic" name="tejus/android_bionic" remote="github" revision="slim4.4" />
-  <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="slim4.4-temp" />
+  <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="slim4.4" />
   <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim4.4" />
   <project path="frameworks/av" name="tejus/android_frameworks_av" remote="github" revision="slim4.4" />
   <project path="frameworks/base" name="tejus/android_frameworks_base" remote="github" revision="slim4.4" />
