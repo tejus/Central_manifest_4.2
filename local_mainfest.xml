@@ -3,6 +3,7 @@
 
   <!-- Slimbean removals -->
   <remove-project name="SlimRoms/android_bionic" />
+  <remove-project name="SlimRoms/android_build" />
   <remove-project name="SlimRoms/bootable_recovery" />
   <remove-project name="SlimRoms/frameworks_av" />
   <remove-project name="SlimRoms/frameworks_base" />
@@ -38,6 +39,9 @@
   <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="jellybean" />
 
   <!-- My repos -->
+  <project path="build" name="tejus/android_build" remote="github" revision="slim4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="bionic" name="tejus/android_bionic" remote="github" revision="slim4.4" />
   <project path="device/moto/jordan-common" name="tejus/android_device_moto_jordan-common" remote="github" revision="slim4.4" />
   <project path="device/moto/mb526" name="tejus/android_device_moto_mb526" remote="github" revision="slim4.4" />
